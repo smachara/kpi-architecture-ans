@@ -1,0 +1,13 @@
+Periodo_Orden,Periodo_Texto,Projet,Release,Pourcentage d'Avancement
+1,"1-15 Feb","Projet A","Release 1",90
+1,"1-15 Feb","Projet A","Release 2",75
+1,"1-15 Feb","Projet B","Release 1",80
+1,"1-15 Feb","Projet B","Release 2",65
+2,"16-28 Feb","Projet A","Release 1",95
+2,"16-28 Feb","Projet A","Release 2",85
+2,"16-28 Feb","Projet B","Release 1",88
+2,"16-28 Feb","Projet B","Release 2",70
+3,"1-15 Mar","Projet A","Release 1",100
+3,"1-15 Mar","Projet A","Release 2",95
+3,"1-15 Mar","Projet B","Release 1",92
+3,"1-15 Mar","Projet B","Release 2",90

@@ -1,0 +1,13 @@
+Periodo_Orden,Periodo_Texto,Projet,Documents rédigés,Documents en rédaction,% Avancement rédaction
+1,"1-15 Feb",A,5,2,30
+1,"1-15 Feb",B,3,1,50
+1,"1-15 Feb",C,2,1,20
+1,"1-15 Feb",D,0,0,0
+2,"16-28 Feb",A,2,3,60
+2,"16-28 Feb",B,1,2,40
+2,"16-28 Feb",C,0,1,10
+2,"16-28 Feb",D,1,1,25
+3,"1-15 Mar",A,4,1,80
+3,"1-15 Mar",B,3,2,65
+3,"1-15 Mar",C,1,3,50
+3,"1-15 Mar",D,0,0,0
