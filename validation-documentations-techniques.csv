@@ -1,13 +1,10 @@
 Periodo_Orden,Periodo_Texto,Projet,Documents validés,Documents en validation,% Avancement
-1,"1-15 Feb",A,1,4,70
-1,"1-15 Feb",B,0,0,0
-1,"1-15 Feb",C,0,0,0
-1,"1-15 Feb",D,0,0,0
-2,"16-28 Feb",A,1,2,85
-2,"16-28 Feb",B,2,4,65
-2,"16-28 Feb",C,0,0,0
-2,"16-28 Feb",D,0,0,0
-3,"1-15 Mar",A,3,3,50
-3,"1-15 Mar",B,4,4,60
-3,"1-15 Mar",C,5,3,70
-3,"1-15 Mar",D,6,4,80
+0,"01-15 Jan.","FINESS",1,	0,100
+1,"16-31 Jan.","FINESS",1,	0,100
+2,"01-15 Feb.","FINESS",2,	2,50
+3,"16-29 Feb","FINESS",0,	2,0
+4,"01-15 Mar.","FINESS",4,	3,75
+5,"16-31 Mar.","FINESS",4,	0,100
+6,"01-15 Avr.","FINESS",0,	0,0
+7,"16-30 Avr.","FINESS",2,	2,50
+8,"01-15 Mai.","FINESS",1,	1,50

@@ -1,0 +1,33 @@
+Project;Type;Formate;Document;Date Creation;Date validation;en cours ;version;categoria;validacion/redaccion.;Label
+FINESS;Tecnique;pdf/doc;ANS_EDB_FINESS_V1.0.09-01-2024.pdf;15/11/2023;09/01/2024;--;1.0;Tech;redaction;EDB
+FINESS;Tecnique;pdf/doc;FINESSplus_Keycloak_Specification_Generale_1.0.7.docx;14/03/2023; 27/03/2023;;1.0;Tech;validation;POC
+FINESS;Tecnique;pdf/confluence;ANS_DAF_FINESS_V1.0.26-01-2024.pdf;08/01/2024;26/01/2024;;1.0;Tech;validation;DAF
+FINESS;Tecnique;pdf/confluence;ANS_EVIDEN_HENIX_DAL_FINESS_V1.0.09-02-2024.pdf;08/01/2024;09/02/2024;;1.0;Tech;validation;DAL
+FINESS;Tecnique;pdf/confluence;ANS_EVIDEN_HENIX_DAT_FINESS_V1.0.09-02-2024.pdf;08/01/2024;09/02/2024;;1.0;Tech;validation;DAT
+FINESS;Tecnique;pdf/confluence;ANS_DAF-DAL-DAT_FINESS-V1.1.01-03-24.pdf;09/02/2024;01/03/2024;;1.1;Tech;validation;DAF
+FINESS;Tecnique;pdf/confluence;ANS_DAF-DAL-DAT_FINESS-V1.1.01-03-24.pdf;09/02/2024;01/03/2024;;1.1;Tech;validation;DAL
+FINESS;Tecnique;pdf/confluence;ANS_DAF-DAL-DAT_FINESS-V1.1.01-03-24.pdf;09/02/2024;01/03/2024;;1.1;Tech;validation;DAF
+FINESS;Tecnique;pdf/confluence;ANS_EVIDEN_HENIX_CICD_FINESS_V1.0.25-04-2024.pdf;15/02/2024;25/04/2024;;1.0;Tech;validation;CI/CD
+FINESS;Wiki;Confluence;Règle de Vie de l’équipe;09/01/2024;09/01/2024;;;Metodologie;redaction;
+FINESS;Wiki;Confluence;Définition de rôles et matrice de compétences par rôle.;03/10/2203;09/10/2024;;5.0;Tech;redaction;
+FINESS;Wiki;Confluence;Definition Of Ready;27/09/2023;14/02/2024;;;Metodologie;redaction;
+FINESS;Wiki;Confluence;Definition Of Done;27/10/2023;28/02/2024;;14.0;Metodologie;redaction;
+ANS;Wiki;Confluence;Workflow JIRA ANS - Guide Utilisateur;01/10/2023;29/02/2024;;5.0;Metodologie;redaction;
+FINESS;Tecnique;Confluence;Tests Fonctionnels;18/01/2024;14/03/2024;;19.0;Metodologie;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/.../Tests/[??]Tests Techniques;01/03/2024;;true;3.0;Metodologie;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/?????Développement/[??] Workflow Git;29/01/2024;18/03/2024;;11.0;Tech;validation;
+FINESS;Wiki;Confluence;SI FINESS+/?????Développement/??Outillage;27/09/2023;18/03/2024;;3.0;Metodologie;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/?????Développement/[??]Commencer à développer sur FINESS;31/01/2024;19/03/2024;;8.0;Tech;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/?????Développement/[??] Tester FINESS en local;28/03/2024;;true;;Tech;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/.../En cours de ??/[??] Gestion de type d'activité.;02/05/2024;;true;;Tech;validation;
+FINESS;Wiki;Confluence;SI FINESS+/.../??Normes et sécurité/Processus de préparation à l’homologation sécurité;22/03/2024;;true;;Tech;redaction;
+FINESS;Tecnique;Confluence;SI FINESS+/.../??Normes et sécurité/[??] Sauvegarde et restauration;12/02/2024;;true;;Tech;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/.../En cours de ??/[??] Points d'API;27/02/2024;;true;;Tech;validation;
+FINESS;Tecnique;Confluence;"SI FINESS+/.../En cours de ??/[??]Gestion de ""Captcha"" pour le formulaires de contact";11/03/2024;;true;;Tech;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/.../En cours de ??/[??]??Écoconception Numériques de FINESS;04/03/2024;;true;;Metodologie;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/.../En cours de ??/[??| ??] Droits utilisateurs;13/02/2024;26/03/2024;true;;Tech;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/.../En cours de ??/[??] Gestion des flux;27/02/2024;25/04/2024;true;;Tech;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/.../[??] Gestion des flux/[??/ ??] 4. Flux d’entrée;25/04/2024;02/05/2024;true;;Tech;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/.../[??] Gestion des flux/[??] 5. Flux de sortie;25/04/2024;;true;;Tech;validation;
+FINESS;Tecnique;Confluence;SI FINESS+/.../En cours de ??/[??]Environnements;25/01/2024;13/05/2024;;;Tech;redaction;
+ANS;;;;;;;;;;
