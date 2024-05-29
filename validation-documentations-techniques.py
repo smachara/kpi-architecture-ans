@@ -9,8 +9,9 @@ data = pd.read_csv('validation-documentations-techniques.csv')
 data.sort_values(by=['Periodo_Orden', 'Projet'], inplace=True)
 
 # Configuración de colores para el gráfico
-colors_bar = ['b', 'r', 'g', 'c', 'm', 'y', 'k']  # Colores para las barras
-colors_line = ['navy', 'darkred', 'darkgreen', 'darkcyan', 'purple', 'goldenrod', 'black']  # Colores para las líneas
+warm_colors = ['red', 'orange', 'yellow', 'darkred', 'coral', 'gold', 'darkorange']  # Colores cálidos para documentos validados
+cool_colors = ['blue', 'cyan', 'purple', 'darkblue', 'deepskyblue', 'darkviolet', 'steelblue']  # Colores fríos para documentos en validación
+line_colors = ['navy', 'darkred', 'darkgreen', 'darkcyan', 'purple', 'goldenrod', 'black']  # Colores para las líneas de avance
 
 # Crear el gráfico
 fig, ax1 = plt.subplots(figsize=(14, 7))
@@ -22,8 +23,8 @@ for i, projet in enumerate(data['Projet'].unique()):
     subset = data[data['Projet'] == projet]
     
     # Dibujar las barras
-    ax1.bar(index + i * bar_width, subset['Documents validés'], bar_width, label=f'Docs validés {projet}', color=colors_bar[i % len(colors_bar)])
-    ax1.bar(index + i * bar_width, subset['Documents en validation'], bar_width, bottom=subset['Documents validés'], label=f'Docs en validation {projet}', color=colors_bar[(i + 1) % len(colors_bar)])
+    ax1.bar(index + i * bar_width, subset['Documents validés'], bar_width, label=f'Docs validés {projet}', color=warm_colors[i % len(warm_colors)])
+    ax1.bar(index + i * bar_width, subset['Documents en validation'], bar_width, bottom=subset['Documents validés'], label=f'Docs en validation {projet}', color=cool_colors[i % len(cool_colors)])
 
 # Ajustar las etiquetas y las leyendas de las barras
 ax1.set_xlabel('Période')
@@ -40,7 +41,7 @@ ax2.set_ylabel('% Avancement')
 # Dibujar las líneas para el porcentaje de avance
 for i, projet in enumerate(data['Projet'].unique()):
     subset = data[data['Projet'] == projet]
-    ax2.plot(index + i * bar_width + bar_width / 2, subset['% Avancement'], 'o-', color=colors_line[i % len(colors_line)], label=f'% Avancement {projet}')
+    ax2.plot(index + i * bar_width + bar_width / 2, subset['% Avancement'], 'o-', color=line_colors[i % len(line_colors)], label=f'% Avancement {projet}')
 
 # Ajustar las leyendas de las líneas
 ax2.legend(loc='upper right', bbox_to_anchor=(1.04, 0.8), borderaxespad=0)
